@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        var clipboadCopy = function(){
+            var urltext = document.getElementById("url");
+            urltext.select();
+            document.execCommand("copy");
+        }
+        </script>
+    </head>
+    <body>
+        テキスト
+        <input type="text" id="url" size="30" maxlength="20" value="https://www.google.co.jp/">
+        <br>
+        <input type="button" value="copy" onclick="clipboadCopy()">
+    </body>
+</html>
